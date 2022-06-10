@@ -31,7 +31,7 @@
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
             "required": true,
-            "value":"𝑵𝒂𝒋𝒂𝒎𝒘𝒐𝒍"
+            "value":""
         },
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
