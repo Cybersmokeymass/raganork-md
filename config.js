@@ -8,7 +8,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 module.exports = {
     VERSION: 'V1.0.2',
-    ALIVE: process.env.ALIVE || "https://telegra.ph/file/f235e79e7a4d0154ad524.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
+    ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
     READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
@@ -17,16 +17,16 @@ module.exports = {
     SESSION: process.env.SESSION || '',
     RG: process.env.RG || '919074309534-1632403322@g.us',
     PASSWORD: process.env.PASSWORD || '',
-    BOT_INFO: process.env.BOT_INFO || 'najamwol;kunju;916282344739;https://telegra.ph/file/f235e79e7a4d0154ad524.jpg;https://chat.whatsapp.com/IKgHpTDKOrLHRwr6tnfz9L',
+    BOT_INFO: process.env.BOT_INFO || 'nxjd;nxjd;918547584245;https://telegra.ph/file/7e44d6112b9e41c3075da.jpg',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,212',
     CHATBOT: process.env.CHATBOT || 'off',
     HANDLERS: process.env.HANDLERS || '.,',
     STICKER_DATA: process.env.STICKER_DATA,
-    BOT_NAME: process.env.BOT_NAME || 'najamwol',
+    BOT_NAME: process.env.BOT_NAME || 'nxjd',
     AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://www.linkpicture.com/q/rgnk.jpg' : process.env.AUDIO_DATA,
     TAKE_KEY: process.env.TAKE_KEY || '',
-    MODE: process.env.MODE || 'public',
+    MODE: process.env.MODE || 'private',
     WARN: process.env.WARN || '4',
     ANTILINK_WARN: process.env.ANTILINK_WARN || '',
     HEROKU: {
